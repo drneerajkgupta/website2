@@ -470,4 +470,169 @@
     </section>
 
     <section style="background:#000; padding:40px; display:flex; flex-wrap:wrap; gap:30px; justify-content:center;">
-        <div><img src="https://static.wixstatic.com/media/a98547_7933b833baeb46fe88908f97052fe3ff~mv2.png" style="max-width:500px;
+        <div><img src="https://static.wixstatic.com/media/a98547_7933b833baeb46fe88908f97052fe3ff~mv2.png" style="max-width:500px; width:100%; border:5px solid #fff;" alt="coaching visual"></div>
+        <div style="display:flex; align-items:center;"><a href="https://wa.me/919419168378?text=I%20would%20like%20to%20book%20a%20session" class="btn-red" target="_blank">BOOK SESSION</a></div>
+    </section>
+
+    <!-- ========== CORPORATE EVENTS ========== -->
+    <section id="corporate" style="background:#000; color:#fff; padding:60px 20px;">
+        <div style="max-width:1000px; margin:0 auto; text-align:center;">
+            <img src="https://static.wixstatic.com/media/a98547_470b9a129bc4432ba40ea9a6dc9c2839~mv2.jpg" style="width:100%; max-width:600px; margin-bottom:30px;" alt="corporate event">
+            <h2 style="font-size:40px;">Corporate Events</h2>
+            <h3 style="font-size:30px; font-family:'heebo-medium',sans-serif;">with Dr Neeraj K Gupta</h3>
+            <p style="font-size:22px; max-width:900px; margin:30px auto;">As an employer, you understand that your employees can’t simply set aside their personal struggles when they come to work. These challenges often accompany them throughout the day, which is why more organizations are turning to self-help education. As a motivational speaker and seminar leader, I empower individuals to become the best version of themselves.</p>
+            <a href="https://wa.me/919419168378?text=I%20would%20like%20to%20know%20more%20about%20corporate%20events" class="btn-red" style="margin:30px auto;" target="_blank">GET IN TOUCH</a>
+        </div>
+    </section>
+
+    <section style="background:#000; color:#fff; padding:50px;">
+        <p style="font-size:35px; font-family:'baskervillemtw01-smbdit',serif; text-align:center;">How can I help your team?</p>
+        <p style="font-size:20px; text-align:center; max-width:900px; margin:0 auto;">From team-building and goal-setting to energy boosters, my interactive sessions inspire new levels of positivity and productivity in your most valuable asset: <u>your employees.</u></p>
+    </section>
+
+    <!-- corporate image row -->
+    <section style="background:#000; display:flex; justify-content:center; padding:40px;">
+        <img src="https://static.wixstatic.com/media/a98547_c000ca8bbae542289f806fa8ac7c31c5~mv2.png" style="max-width:600px; width:100%; border:3px solid #fff;" alt="corporate workshop">
+    </section>
+
+    <!-- ========== POLICIES SECTION (no pricing) ========== -->
+    <section id="policies" style="background:#000; color:#fff; padding:60px 20px;">
+        <div style="max-width:1100px; margin:0 auto;">
+            <h2 style="text-align:center; font-size:45px; margin-bottom:40px;">Our Policies</h2>
+            <div class="policy-grid">
+                <!-- Pricing Policy (no prices) -->
+                <div class="policy-card">
+                    <h3>💰 Pricing Policy</h3>
+                    <p>Sessions are priced transparently. One-on-one coaching and corporate events are billed per session or per event. Package discounts available for multiple sessions. Payment is due before the first session via bank transfer, UPI, or card. Receipt provided immediately.</p>
+                </div>
+                <!-- Refund / Cancellation Policy -->
+                <div class="policy-card">
+                    <h3>↩️ Refund & Cancellation</h3>
+                    <ul>
+                        <li>Cancel up to 48h before session → full refund.</li>
+                        <li>Cancel between 48h and 24h → 50% refund.</li>
+                        <li>Less than 24h → no refund, but you may reschedule once (subject to availability).</li>
+                        <li>Corporate events: 50% deposit non‑refundable; remainder refundable up to 7 days before event.</li>
+                        <li>Refunds processed within 5 working days.</li>
+                    </ul>
+                </div>
+                <!-- Terms & Conditions -->
+                <div class="policy-card">
+                    <h3>📋 Terms & Conditions</h3>
+                    <ul>
+                        <li>Coaching is not a substitute for medical treatment. Always consult your doctor.</li>
+                        <li>All discussions are strictly confidential.</li>
+                        <li>Video sessions require stable internet; we are not liable for technical disruptions.</li>
+                        <li>By booking, you agree to these terms.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CONTACT section with WhatsApp form handler ========== -->
+    <section id="contact" style="background:#000; padding:60px 20px;">
+        <div style="max-width:800px; margin:0 auto; text-align:center;">
+
+            <!-- prominent contact line with phone and email -->
+            <div class="contact-line">
+                <span>📞 <a href="tel:+919419168378" style="color:#fff;">+91 9419168378</a></span>
+                <span>✉️ <a href="mailto:drneerajgupta1@gmail.com" style="color:#fff;">drneerajgupta1@gmail.com</a></span>
+            </div>
+
+            <h2 style="color:#fff; font-size:60px; font-family:'baskervillemtw01-smbdit',serif;">Get in touch!</h2>
+            <p style="color:#fff; font-size:22px;">Fill this form and we’ll reply instantly on WhatsApp.</p>
+
+            <!-- unified contact form that sends to WhatsApp -->
+            <div class="form-card">
+                <form id="waForm" onsubmit="sendToWhatsApp(event)">
+                    <label>Company name *</label>
+                    <input type="text" id="company" required>
+
+                    <label>Company Location *</label>
+                    <input type="text" id="location" required>
+
+                    <label>Your Name *</label>
+                    <input type="text" id="name" required>
+
+                    <label>Designation *</label>
+                    <input type="text" id="designation" required>
+
+                    <label>Phone *</label>
+                    <input type="tel" id="phone" required>
+
+                    <label>Email *</label>
+                    <input type="email" id="email" required>
+
+                    <label>Briefly Describe Purpose Of Contact (optional)</label>
+                    <textarea id="message" rows="3"></textarea>
+
+                    <button type="submit">Send via WhatsApp</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="footer-col">
+            <h3 style="font-size:30px; margin-bottom:20px;">Quick Links</h3>
+            <a href="#about">About Us</a>
+            <a href="#policies">Pricing Policy</a>
+            <a href="#policies">Refund/ Cancellation Policy</a>
+            <a href="#policies">Privacy Policy</a>
+            <a href="#policies">Terms & Conditions</a>
+        </div>
+        <div class="footer-col">
+            <h3 style="font-size:30px; margin-bottom:20px;">Contact Us</h3>
+            <p>Dial us on: +91 9419168378</p>
+            <p>Address: 200 A/D 1st Floor, Left Lane of Panch Mandir, Gandhi Nagar, Jammu, Jammu and Kashmir 180004</p>
+        </div>
+    </footer>
+
+    <!-- tiny spacer -->
+    <div style="height:10px;"></div>
+
+</div> <!-- site-wrapper -->
+
+<!-- WhatsApp form handler -->
+<script>
+    function sendToWhatsApp(event) {
+        event.preventDefault();
+        
+        const company = document.getElementById('company').value;
+        const location = document.getElementById('location').value;
+        const name = document.getElementById('name').value;
+        const designation = document.getElementById('designation').value;
+        const phone = document.getElementById('phone').value;
+        const email = document.getElementById('email').value;
+        const message = document.getElementById('message').value;
+
+        const text = `*New Inquiry from Website*%0A%0A
+🏢 *Company:* ${company}%0A
+📍 *Location:* ${location}%0A
+👤 *Name:* ${name}%0A
+📌 *Designation:* ${designation}%0A
+📞 *Phone:* ${phone}%0A
+📧 *Email:* ${email}%0A
+💬 *Message:* ${message || 'No message'}`;
+
+        const waLink = `https://wa.me/919419168378?text=${text}`;
+        window.open(waLink, '_blank');
+    }
+</script>
+
+<!-- force animations on all sections (they already have classes, but this ensures any remaining element gets fade) -->
+<script>
+    // add animate classes to any element that might have been missed
+    window.addEventListener('load', function() {
+        document.querySelectorAll('h1, h2, h3, p, .btn-red, .policy-card, .gallery-grid img').forEach(el => {
+            if (!el.classList.contains('animate-left') && !el.classList.contains('animate-right') && !el.classList.contains('animate-up')) {
+                el.classList.add('animate-up');
+            }
+        });
+    });
+</script>
+
+</body>
+</html>
