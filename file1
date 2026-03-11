@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr Neeraj K Gupta – Counselling</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'helvetica-w01-roman', 'Helvetica Neue', sans-serif; background: #e8e6e6; color: #000; line-height: 1.4; }
+    a { text-decoration: none; color: inherit; }
+    @font-face { font-family: 'helvetica-w01-bold'; src: url('//static.parastorage.com/fonts/v2/2f12de04-5ca4-4ada-9e66-a958673b12b5/v1/helvetica-w01-bold.woff2') format('woff2'); }
+    @font-face { font-family: 'helvetica-w01-roman'; src: url('//static.parastorage.com/fonts/v2/2af1bf48-e783-4da8-9fa0-599dde29f2d5/v1/helvetica-w01-roman.woff2') format('woff2'); }
+    @font-face { font-family: 'dinneuzeitgroteskltw01-_812426'; src: url('//static.parastorage.com/fonts/v2/b46aabec-b529-45a8-a0fe-2abaf6daf369/v1/dinneuzeitgroteskltw01-_812426.latin.woff2') format('woff2'); }
+    @font-face { font-family: 'avenir-lt-w01_85-heavy1475544'; src: url('//static.parastorage.com/fonts/v2/74290729-59ae-4129-87d0-2eec3974dce1/v1/avenir-lt-w01_85-heavy1475544.woff2') format('woff2'); }
+    @font-face { font-family: 'baskervillemtw01-smbdit'; src: url('//static.parastorage.com/fonts/v2/f26e0fab-f63d-4ecc-80e2-a2136c759445/v1/baskervillemtw01-smbdit.woff2') format('woff2'); }
+    @font-face { font-family: 'heebo-medium'; src: url('//static.parastorage.com/tag-bundler/api/v1/fonts-cache/google/s/heebo/v26/NGSpv5_NC0k9P_v6ZUCbLRAHxK1Euyycd0Onz02SXQ.woff2') format('woff2'); }
+    .navbar { background: #000; display: flex; justify-content: center; padding: 14px 0 0; }
+    .menu { display: flex; gap: 2rem; font-family: 'dinneuzeitgroteskltw01-_812426', sans-serif; font-size: 25px; color: #fff; flex-wrap: wrap; justify-content: center; }
+    .menu a { color: #fff; transition: 0.2s; }
+    .menu a:hover, .menu .active { color: #4B3CCD; }
+    .btn-red { background: #ff0000; color: #fff; padding: 12px 30px; display: inline-block; border: none; cursor: pointer; font-family: 'avenir-lt-w01_85-heavy1475544', sans-serif; font-size: 13px; letter-spacing: 0.2em; transition: 0.2s; }
+    .btn-red:hover { background: #417586; }
+    .footer { background: #000; color: #fff; padding: 3rem 2rem; display: flex; justify-content: space-around; flex-wrap: wrap; }
+    .footer-col a { display: block; color: #fff; text-decoration: underline; margin: 8px 0; }
+    .section-dark { background: #000; color: #fff; }
+    .container { max-width: 1200px; margin: 0 auto; }
+    .hero-img { width: 100%; max-width: 664px; margin: 0 auto; display: block; padding: 30px; }
+    .bordered-box { border: 3px solid #fff; padding: 40px; text-align: center; max-width: 800px; margin: 0 auto; }
+    .bordered-box h2 { font-size: 30px; font-family: 'helvetica-w01-bold', sans-serif; }
+    .bordered-box .sub { font-family: 'heebo-medium', sans-serif; }
+    .info-text { font-size: 20px; max-width: 900px; margin: 0 auto; padding: 20px; }
+    .flex-wrap { display: flex; flex-wrap: wrap; gap: 30px; justify-content: center; align-items: center; padding: 40px; }
+  </style>
+</head>
+<body>
+<div class="site-wrapper">
+  <div class="navbar">
+    <nav class="menu">
+      <a href="index.html">HOME</a>
+      <a href="about.html">About</a>
+      <a href="counselling.html" class="active">Counselling</a>
+      <a href="#">Corporate Events</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+  </div>
+
+  <!-- top image -->
+  <section class="section-dark">
+    <img class="hero-img" src="https://static.wixstatic.com/media/a98547_6bb9efb2e99140e889d4557bd705a7b3~mv2.jpg" alt="Dr Neeraj">
+  </section>
+
+  <!-- register row -->
+  <section class="section-dark" style="padding:50px;">
+    <div class="bordered-box">
+      <h2><span style="font-size:30px;">One on One</span><br><span class="sub">with</span><br><span style="font-family:'helvetica-w01-bold';">Dr Neeraj K Gupta</span></h2>
+      <a href="#" class="btn-red" style="margin-top:30px;">REGISTER NOW</a>
+    </div>
+  </section>
+
+  <!-- stuck question -->
+  <section class="section-dark" style="padding:40px; text-align:center;">
+    <h2 style="font-size:30px;">Do you feel stuck in your personal life, your career, or both?</h2>
+    <p class="info-text">My one-on-one coaching sessions provide <u>customized solutions</u> for any challenges you’re facing.</p>
+  </section>
+
+  <!-- book session + image -->
+  <section class="section-dark">
+    <div class="flex-wrap">
+      <img src="https://static.wixstatic.com/media/a98547_7933b833baeb46fe88908f97052fe3ff~mv2.png" style="max-width:500px; width:100%; border:5px solid #fff;">
+      <div><a href="#" class="btn-red">BOOK SESSION</a></div>
+    </div>
+  </section>
+
+  <!-- empty container (like comp-m6gslakc) -->
+  <section class="section-dark" style="padding:60px;">
+    <div style="border:3px solid #fff; padding:40px; margin:20px; min-height:200px;"></div>
+  </section>
+
+  <!-- footer -->
+  <footer class="footer">
+    <div class="footer-col">
+      <h3 style="font-size:30px; margin-bottom:20px;">Quick Links</h3>
+      <a href="about.html">About Us</a>
+      <a href="#">Pricing Policy</a>
+      <a href="#">Refund/ Cancellation Policy</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms & Conditions</a>
+    </div>
+    <div class="footer-col">
+      <h3 style="font-size:30px; margin-bottom:20px;">Contact Us</h3>
+      <p>Dial us on: +91 9419168378</p>
+      <p>Address: 200 A/D 1st Floor, Left Lane of Panch Mandir, Gandhi Nagar, Jammu, Jammu and Kashmir 180004</p>
+    </div>
+  </footer>
+</div>
+</body>
+</html>
